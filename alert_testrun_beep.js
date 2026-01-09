@@ -1,0 +1,1 @@
+alert("Welcome to STONES INC&copy;, click ok to continue!")

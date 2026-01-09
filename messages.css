@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Ariel;
+  }
+  
+  /* Optional Nav */
+  nav {
+    display: inline;
+    gap: 15px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    background: black;
+  }
+  
+  nav li{
+    text-decoration: none;
+    display: inline;
+    color: white;
+    padding: 10px;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .chat-container {
+    width: 350px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-header {
+    background: black;
+    color: orangered;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  
+  .user {
+    text-align: right;
+  }
+  
+  .user span {
+    background: #4a76a8;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 15px;
+    display: inline-block;
+  }
+  
+  .bot span {
+    background: #e5e5e5;
+    padding: 8px 12px;
+    border-radius: 15px;
+    display: inline-block;
+  }
+  
+  .chat-input {
+    display: flex;
+    border-top: 1px solid #ddd;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .chat-input button {
+    padding: 10px 15px;
+    border: none;
+    background: orangered;
+    color: black;
+    cursor: pointer;
+  }
+  .header {
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 60px;
+    background: orangered;
+    align-items: center;
+    padding: 0 20;
+    z-index: 1000;
+    text-align: right;
+    padding-top: 5%;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+}
+h1 {
+    color: orangered;
+}
+.currentpage {
+    border-bottom: 5px solid black;
+}

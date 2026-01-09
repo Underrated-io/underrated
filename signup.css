@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Login Box */
+.login-container {
+    background: transparent;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+/* Inputs */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.input-group input:focus {
+    border-color:#667eea;
+}
+
+/* Button */
+button {
+    width: 100px;
+    padding: 12px;
+    font-size: 16px;
+    background: #667eea;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+/* Signup text */
+.signup {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    background: rgb(150, 31, 31);
+}
+
+.signup a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+/* Mobile Adjustment*/
+@media (max-width: 480px) {
+    .login-container {
+        padding: 20px;
+    }
+
+    button {
+        font-size: 15px;
+    }
+}
+
+/* Large Screens */
+@media (min-width: 1024px) {
+    .login-container{
+        max-width: 450px;
+    }
+}

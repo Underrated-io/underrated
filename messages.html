@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Live Chat</title>
+  <link rel="stylesheet" href="messages.css" />
+</head>
+<body class="wrapper">
+    <h1>STONES INC&copy;</h1>
+<!-- Optional Navigation -->
+<nav class="header">
+    <ul>
+        <li>STONES INC&copy;</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bio.html">Bio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li class="currentpage"><a href="messages.html">Chat</a></li>
+        <li><a href="LoginPage.html">Logout</a></li>
+      </ul>
+</nav>
+
+<div class="chat-container">
+  <div class="chat-header">Live Chat</div>
+
+  <div id="chat-messages" class="chat-messages"></div>
+
+  <div class="chat-input">
+    <input
+      type="text"
+      id="messageInput"
+      placeholder="Type a message..."
+    />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
