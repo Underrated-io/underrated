@@ -1,176 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>index</title>
-        <style>
-            body {
-                background-color: black;
-                color: whitesmoke;
-            }
-            h1 {
-                color: orangered;
-                font-size: 50px;
-            }
-
-            span {
-                font-style: italic;
-                color: gray;
-            }
-            
-            nav {
-                margin-top: 50px;
-                margin-bottom: 50px;
-            }
-
-            nav ul {
-                list-style-type: none;
-                padding: 0;
-                margin: 0;
-                text-align: right;
-                background: black;
-            }
-
-            nav li {
-                display: inline;
-                padding: 10px; 
-            }
-
-            nav a {
-                color: white;
-                text-decoration: none;
-            }
-
-            .currentpage {
-                border-bottom: black solid 5px;
-            }
-
-            footer {
-                text-align: center;
-                margin-top: 50px;
-            }
-
-            footer hr {
-                border-top: 2px solid orangered;
-                width: 60%;
-                margin: auto;
-            }
-
-            .wrapper {
-                max-width: 1000px;
-                margin: auto;
-            }
-
-            .header {
-                position: sticky;
-                top: 0%;
-                left: 0%;
-                width: 100%;
-                height: 60px;
-                background: orangered;
-                align-items: center;
-                padding: 0 20px;
-                z-index: 1000;
-                text-align: right;
-                padding-top: 5% ;
-            }
-            .header2 {
-                text-align: center;
-            }
-            .header3 {
-                text-align: left;
-            }
-
-
-
-        </style>
-        <script src="alert_testrun_beep.js" type="text/javascript"></script>
-    </head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device, initial-scale=1.0">
+        <title>homepage</title>
+        <link rel="stylesheet" href="indexwithham.css">
+    </head>
     <body>
-        <h1 class="header2">STONES INC&copy;</h1>
-        <div class="wrapper">
-            <nav class="header">
-                <ul>
-                    <li class="header3">STONES INC&copy;</li>
-                    <li class="currentpage"><a href="index.html">Home</a></li>
-                    <li><a href="bio.html">Bio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="messages.html">Chat</a></li>
-                    <li><a href="LoginPage.html">Logout</a></li>
-                </ul>
-                </nav>
-    
-            <header><h1>
-                No, Zombies Are Not Your Friends,
-                Do Not Believe Them Even If They Say They Are
-            </h1></header>
-    
-            <main>
-                <span>by Dr. Boople</span>
-                <p>
-                    It may be surprising to you, but zombies are <b>not</b> your friends.
-                    They may seem nice and may moan at you from the lips of your love ones,
-                    but they are only trying to lull you into a false sense of security
-                </p>
-                <p>
-                    They know they look like your long dead Uncle Ernie and 
-                    that you left your admiration for his pickle jar collection
-                    unsaid before his untimely reanimation. But this is how they
-                    trick you.
-                </p>
-                <p>
-                    They get you to think that <em>maybe</em> some part of the Aunt Mildred,
-                    who baked you cookies every day after school when all the other PhD
-                    candidates called your work silly and foolish and told you you'd
-                    never amount to anything more than an untenured adjunct, is still in
-                    there and just might start baking again at any moment if you'd
-                    just come within arms reach.
-                </p>
-                <p>
-                    They want you to feel that maybe, just maybe that girl down the street who
-                    beat you up every single day of your adult life will finally realize
-                    that you are much cooler that your pocket protector makes you out to be.
-                    That she will finally embrace you for the wonderful peson that you
-                    are and stop telling her friends that you smell like an uncomplimentary
-                    mix of eggs and old-person ointment.
-                </p>
-                <p>
-                    Do not believe them!
-                </p>
-                <p>
-                    They lie!!!!!!
-                </p>
-                <p>
-                    They only want to eat your brains and possibly elevate their apocalyptic
-                    social standing by bringing more zombies into the horde.
-                    You are <b>not</b> your misguided wishes for love and affection.
-                    You are a person with thoughts and hopes and dreams. Don't throw
-                    them away by trusting some infected guy from your hometown who
-                    was the epitome of coll and now says through his moans that he wants to be your friend.
-                </p>
-                <p>
-                    Stay strong Alexander-I mean, <i>yooou</i>. Just because he's
-                    shown up to fnally tell you he was wrong for giving you atomic wedgies
-                    and telling everyone that you wet your pants in eight grde and that's
-                    what you've longed for every moment since high school ended dosen't
-                    mean that it has happened or that he dosen't have ulterior motives.
-                </p>
-                <p>
-                    Hey, Brad, what are you doing-
-                </p>
-                <p>
-                    It's true?
-                </p>
-                <p>
-                    You want to tell everyone you're my best friend?
-                </p>
-                <p>
-                    Why, yes, I will gladly come within arm's reach to hear what
-                    you're mumbling...
-                </p>
-               
-            </main>
+        <header class="header">
+            <h1 class="logo">STONES INC&copy;</h1>
+            <!-- Harmburger (small screens only) -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <nav class="nav" id="nav">
+            <a href="index.html">Home</a>
+            <a href="bio.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="chat.html">Chat</a>
+            <a href="logout.html">Logout</a>
+        </nav>
+        <main class="content">
+
+        <h1 class="h1">No, Zombies Are Not Your Friends, & Do Not Believe Them Even If They Say They Are</h1>
+        
+        <i>Alexander Boople</i>
+        <br>
+        <br>
+        <p>It may be surprising to you, but zombies are *not* your friends.
+            They may seem nice and may moan at you from the lips of your
+            loved ones, but they are only trying to lull you into a false
+            sense of security.
+        </p>
+        <br>
+        <p>
+            They know they look like your long dead Uncle Ernie
+            and that you left your admiration for his pickle jar
+            collection unsaid before his untimely reanimation.
+            But this is how they trick you.
+            <br>
+        </p>
+        <p>
+            They get you to think that _maybe_ some part of the Aunt Mildred,
+            who baked you cookies every day after school when all the other
+            PhD candidates called your work silly and foolish and
+            told you you‘d never amount to anything more than an untenured
+            adjunct, is still in there and just might start baking again at
+            any moment if you’d just come within arm’s reach.
+        </p>
+        <br>
+        <p>
+            They want you to feel that maybe, just maybe that girl down the
+            street who beat you up every single day of your adult life will
+            finally realize that you are much cooler than your pocket protector
+            makes you out to be. That she will finally embrace you for the
+            wonderful person that you are and stop telling her friends that you
+            smell like an uncomplimentary mix of eggs and old-person ointment.
+        </p>
+        <br>
+        <p>
+            Do not believe them!
+        </p>
+        <br>
+        <p>
+            They lie!!!!!!
+        </p>
+        <br>
+        <p>
+            They only want to eat your brains and possibly elevate their apocalyptic
+            social standing by bringing more zombies into the horde.
+            You are *not* your misguided wishes for love and affection.
+            You are a person with thoughts and hopes and dreams.
+            Don’t throw them away by trusting some infected guy from your hometown
+            who was the epitome of cool and now says through his moans that he wants
+            to be your friend. 
+        </p>
+        <br>
+        <p>
+            Stay strong, Alexander—I mean, _yooou_. Just because he’s shown up to finally
+            tell you he was wrong for giving you atomic wedgies and telling everyone that
+            you wet your pants in eighth grade and that’s what you’ve longed for every
+            moment since high school ended doesn’t mean that it has happened or that he
+            doesn’t have ulterior motives.
+        </p>
+        <br>
+        <p>
+            Hey, Brad, what are you doing—
+        </p>
+        <br>
+        <p>
+            It’s true?
+        </p>
+        <br>
+        <p>
+            You want to tell everyone you’re my best friend?
+        </p>
+        <br>
+        <p>
+            Why, yes, I will gladly come within arm’s reach to hear what you are mumbling…
+        </p>
+        <br>
+        </main>
+        <script src="hamburger.js"></script>
         <footer><hr></footer>
-        </div>
-        &copy; 2026, by Jasper Stones.
+        &copy; 2026 Stones Inc. All rights reserved.
     </body>
 </html>
